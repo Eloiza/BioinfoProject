@@ -1,0 +1,52 @@
+Total entries in our dataset: 346325
+Removing Nan entries...
+Total entries in our dataset: 346321
+Total protein functions:  4468
+Total protein functions with more than 1000 samples:  43
+Total samples with more than 1000 samples:  (278866, 3)
+Total samples with less than 500 aminoacids: (252492, 3)
+X_train.shape:  (201993, 256)
+X_test.shape :  (50499, 256)
+y_train.shape:  (201993, 43)
+y_test.shape:  (50499, 43)
+Max tokens:  25
+Epoch 1/20
+5050/5050 - 623s - loss: 2.3762 - accuracy: 0.3629 - val_loss: 1.8378 - val_accuracy: 0.5016
+Epoch 2/20
+5050/5050 - 681s - loss: 1.8879 - accuracy: 0.4937 - val_loss: 1.6577 - val_accuracy: 0.5493
+Epoch 3/20
+5050/5050 - 653s - loss: 1.7283 - accuracy: 0.5353 - val_loss: 1.5494 - val_accuracy: 0.5794
+Epoch 4/20
+5050/5050 - 652s - loss: 1.6400 - accuracy: 0.5577 - val_loss: 1.4700 - val_accuracy: 0.6006
+Epoch 5/20
+5050/5050 - 646s - loss: 1.5886 - accuracy: 0.5725 - val_loss: 1.4329 - val_accuracy: 0.6058
+Epoch 6/20
+5050/5050 - 634s - loss: 1.5403 - accuracy: 0.5833 - val_loss: 1.4063 - val_accuracy: 0.6209
+Epoch 7/20
+5050/5050 - 634s - loss: 1.5015 - accuracy: 0.5936 - val_loss: 1.3743 - val_accuracy: 0.6275
+Epoch 8/20
+5050/5050 - 634s - loss: 1.4757 - accuracy: 0.6007 - val_loss: 1.3417 - val_accuracy: 0.6338
+Epoch 9/20
+5050/5050 - 634s - loss: 1.4520 - accuracy: 0.6050 - val_loss: 1.3423 - val_accuracy: 0.6365
+Epoch 10/20
+5050/5050 - 635s - loss: 1.4293 - accuracy: 0.6121 - val_loss: 1.3346 - val_accuracy: 0.6433
+Epoch 11/20
+5050/5050 - 635s - loss: 1.4157 - accuracy: 0.6159 - val_loss: 1.3186 - val_accuracy: 0.6429
+Epoch 12/20
+5050/5050 - 635s - loss: 1.4029 - accuracy: 0.6198 - val_loss: 1.2956 - val_accuracy: 0.6477
+Epoch 13/20
+5050/5050 - 635s - loss: 1.3892 - accuracy: 0.6223 - val_loss: 1.2942 - val_accuracy: 0.6504
+Epoch 14/20
+5050/5050 - 637s - loss: 1.3720 - accuracy: 0.6261 - val_loss: 1.3093 - val_accuracy: 0.6543
+Epoch 15/20
+5050/5050 - 653s - loss: 1.3660 - accuracy: 0.6281 - val_loss: 1.2878 - val_accuracy: 0.6541
+Epoch 16/20
+5050/5050 - 651s - loss: 1.3591 - accuracy: 0.6311 - val_loss: 1.2753 - val_accuracy: 0.6557
+Epoch 17/20
+5050/5050 - 645s - loss: 1.3482 - accuracy: 0.6334 - val_loss: 1.2843 - val_accuracy: 0.6612
+Epoch 18/20
+5050/5050 - 634s - loss: 1.3415 - accuracy: 0.6358 - val_loss: 1.2778 - val_accuracy: 0.6620
+Epoch 19/20
+5050/5050 - 635s - loss: 1.3306 - accuracy: 0.6388 - val_loss: 1.2779 - val_accuracy: 0.6612
+Epoch 20/20
+5050/5050 - 635s - loss: 1.3296 - accuracy: 0.6382 - val_loss: 1.2559 - val_accuracy: 0.6665
